@@ -2,12 +2,8 @@ name: wafelzwaard
 version: '1.0-SNAPSHOT'
 main: me.verschillend.wafelzwaard.Wafelzwaard
 api-version: '1.21'
-commands:
-  lobby:
-    description: Sends player to lobby server
-    usage: /lobby
-    permission: wafelzwaard.lobby
-    aliases: [hub]
+authors:
+  - Verschillend
 permissions:
   wafelzwaard.lobby:
     description: Allows use of /lobby and /hub

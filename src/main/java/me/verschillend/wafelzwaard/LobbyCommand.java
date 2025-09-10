@@ -30,7 +30,7 @@ public class LobbyCommand implements CommandExecutor {
         out.writeUTF("Connect");
         out.writeUTF("lobby");
 
-        player.sendPluginMessage(plugin, "bungeecord:main", out.toByteArray());
+        player.sendPluginMessage(plugin, "BungeeCord", out.toByteArray());
 
         return true;
     }
